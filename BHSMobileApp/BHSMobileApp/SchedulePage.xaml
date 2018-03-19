@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BHSMobileApp.SchedulePage">
+
+    <ContentPage.Padding>
+        <OnPlatform x:TypeArguments="Thickness">
+            <On Platform="iOS" Value="20, 40, 20, 20" />
+            <On Platform="Android, WinPhone, Windows" Value="20" />
+        </OnPlatform>
+    </ContentPage.Padding>
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="gridText" TargetType="Label">
+                <Setter Property="TextColor" Value="Black" />
+                <Setter Property="FontSize" Value="12" />
+                <Setter Property="VerticalTextAlignment" Value="Center" />
+            </Style>
+            <Style x:Key="gridEntry" TargetType="Entry">
+                <Setter Property="TextColor" Value="Black" />
+                <Setter Property="FontSize" Value="10" />
+            </Style>
+            <Style x:Key="dataLabel" TargetType="Label">
+                <Setter Property="TextColor" Value="Black" />
+                <Setter Property="FontSize" Value="10" />
+                <Setter Property="VerticalTextAlignment" Value="Center" />
+            </Style>
+            <Style x:Key="dataEntry" TargetType="Entry">
+                <Setter Property="TextColor" Value="Black" />
+                <Setter Property="FontSize" Value="10" />
+                <Setter Property="VerticalOptions" Value="Center" />
+            </Style>
+            <Style x:Key="button" TargetType="Button">
+                <Setter Property="TextColor" Value="Black" />
+                <Setter Property="FontSize" Value="10" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <StackLayout>
+
+        <!-- ############################ -->
+        <!-- START YOUR PAGE CONTENT HERE -->
+        <!-- ############################ -->
+        <Grid Margin="0,0,0,0" Padding="0,0,0,0" RowSpacing="0" ColumnSpacing="5">
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="35"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="40"/>
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="15"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Label Text="Period" Grid.Column="0" Grid.Row="0" Style="{StaticResource gridText}" />
+            <Label Text="Class Name" Grid.Column="1" Grid.Row="0" Style="{StaticResource gridText}"  />
+            <Label Text="Room #" Grid.Column="2" Grid.Row="0" Style="{StaticResource gridText}" />
+
+            <Label Text="1" Grid.Column="0" Grid.Row="1" Style="{StaticResource gridText}" />
+            <Entry x:Name="Class1" Text="" Placeholder="Example: Algebra" Grid.Column="1" Grid.Row="1" Style="{StaticResource gridEntry}" />
+            <Entry x:Name="Room1" Text="" Placeholder="123" Grid.Column="2" Grid.Row="1" Style="{StaticResource gridEntry}" />
+
+            <Label Text="2" Grid.Column="0" Grid.Row="2" Style="{StaticResource gridText}" />
+            <Entry x:Name="Class2" Text="" Grid.Column="1" Grid.Row="2" Style="{StaticResource gridEntry}" />
+            <Entry x:Name="Room2" Text="" Grid.Column="2" Grid.Row="2" Style="{StaticResource gridEntry}" />
+
+            <Label Text="3" Grid.Column="0" Grid.Row="3" Style="{StaticResource gridText}" />
+            <Entry x:Name="Class3" Text="" Grid.Column="1" Grid.Row="3" Style="{StaticResource gridEntry}" />
+            <Entry x:Name="Room3" Text="" Grid.Column="2" Grid.Row="3" Style="{StaticResource gridEntry}" />
+
+            <Label Text="4" Grid.Column="0" Grid.Row="4" Style="{StaticResource gridText}" />
+            <Entry x:Name="Class4" Text="" Grid.Column="1" Grid.Row="4" Style="{StaticResource gridEntry}" />
+            <Entry x:Name="Room4" Text="" Grid.Column="2" Grid.Row="4" Style="{StaticResource gridEntry}" />
+
+            <Label Text="5" Grid.Column="0" Grid.Row="5" Style="{StaticResource gridText}" />
+            <Entry x:Name="Class5" Text="" Grid.Column="1" Grid.Row="5" Style="{StaticResource gridEntry}" />
+            <Entry x:Name="Room5" Text="" Grid.Column="2" Grid.Row="5" Style="{StaticResource gridEntry}" />
+
+            <Label Text="6" Grid.Column="0" Grid.Row="6" Style="{StaticResource gridText}" />
+            <Entry x:Name="Class6" Text="" Grid.Column="1" Grid.Row="6" Style="{StaticResource gridEntry}" />
+            <Entry x:Name="Room6" Text="" Grid.Column="2" Grid.Row="6" Style="{StaticResource gridEntry}" />
+
+            <Label Text="7" Grid.Column="0" Grid.Row="7" Style="{StaticResource gridText}" />
+            <Entry x:Name="Class7" Text="" Grid.Column="1" Grid.Row="7" Style="{StaticResource gridEntry}" />
+            <Entry x:Name="Room7" Text="" Grid.Column="2" Grid.Row="7" Style="{StaticResource gridEntry}" />
+
+            <Label Text="8" Grid.Column="0" Grid.Row="8" Style="{StaticResource gridText}" />
+            <Entry x:Name="Class8" Text="" Grid.Column="1" Grid.Row="8" Style="{StaticResource gridEntry}" />
+            <Entry x:Name="Room8" Text="" Grid.Column="2" Grid.Row="8" Style="{StaticResource gridEntry}" />
+
+        </Grid>
+        <!-- ########################## -->
+        <!-- END YOUR PAGE CONTENT HERE -->
+        <!-- ########################## -->
+
+        <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" HeightRequest="35">
+            <Button x:Name="saveButton" Text="Save" Style="{StaticResource button}" Clicked="Save"/>
+            <Button x:Name="resetButton" Text="Reset" Style="{StaticResource button}" Clicked="Reset"/>
+        </StackLayout>
+
+    </StackLayout>
+
+</ContentPage>

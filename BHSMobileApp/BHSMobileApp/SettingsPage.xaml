@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BHSMobileApp.SettingsPage">
+
+    <ContentPage.Padding>
+        <OnPlatform x:TypeArguments="Thickness">
+            <On Platform="iOS" Value="20, 40, 20, 20" />
+            <On Platform="Android, WinPhone, Windows" Value="20" />
+        </OnPlatform>
+    </ContentPage.Padding>
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="button" TargetType="Button">
+                <Setter Property="TextColor" Value="Black" />
+                <Setter Property="FontSize" Value="10" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <StackLayout>
+        
+        <!-- ############################ -->
+        <!-- START YOUR PAGE CONTENT HERE -->
+        <!-- ############################ -->
+        <TableView Intent="Settings">
+            <TableRoot>
+                <TableSection>
+                    <EntryCell x:Name="username" Label="Name" Text="{Binding Username}" Placeholder="Enter your name" />
+                    <SwitchCell x:Name="restroomsEnabled" Text="Show Restrooms" On="{Binding RestroomDisplayEnabled}" />
+                    <SwitchCell x:Name="stairwellsEnabled" Text="Show Stairwells" On="{Binding StairwellDisplayEnabled}" />
+                    <SwitchCell x:Name="elevatorsEnabled" Text="Show Elevators" On="{Binding ElevatorDisplayEnabled}" />
+                </TableSection>
+            </TableRoot>
+        </TableView>
+        <!-- ########################## -->
+        <!-- END YOUR PAGE CONTENT HERE -->
+        <!-- ########################## -->
+        
+        <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" HeightRequest="35">
+            <Button x:Name="saveButton" Text="Save" Style="{StaticResource button}" Clicked="Save"/>
+            <Button x:Name="resetButton" Text="Reset" Style="{StaticResource button}" Clicked="Reset"/>
+        </StackLayout>
+        
+    </StackLayout>
+
+</ContentPage>
