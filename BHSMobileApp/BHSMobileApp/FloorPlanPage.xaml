@@ -70,22 +70,22 @@
                        RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToView, ElementName=floor,Property=Width,Factor=0.05,Constant=0}"
                        RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToView, ElementName=floor,Property=Height,Factor=0.05,Constant=0}"/>
 
-                <Image x:Name="restroom1" Source="http://imghst.co/75/I=l4w9qIxY.png"
+                <Image x:Name="restroom1" Source="{local:ImageResource BHSMobileApp.images.bathroom-female-sign.png}"
                        RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView, ElementName=floor,Property=Width,Factor=0.400,Constant=0}"
                        RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView, ElementName=floor,Property=Height,Factor=0.264,Constant=0}"
                        RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToView, ElementName=floor,Property=Width,Factor=0.05,Constant=0}"
                        RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToView, ElementName=floor,Property=Height,Factor=0.05,Constant=0}"/>
-                <Image x:Name="restroom2" Source="http://imghst.co/94/_pK8hxQPm~.png"
+                <Image x:Name="restroom2" Source="{local:ImageResource BHSMobileApp.images.bathroom-male-sign.png}"
                        RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView, ElementName=floor,Property=Width,Factor=0.426,Constant=0}"
                        RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView, ElementName=floor,Property=Height,Factor=0.331,Constant=0}"
                        RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToView, ElementName=floor,Property=Width,Factor=0.05,Constant=0}"
                        RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToView, ElementName=floor,Property=Height,Factor=0.05,Constant=0}"/>
-                <Image x:Name="restroom3" Source="http://imghst.co/70/CFXCKYtpXm.png"
+                <Image x:Name="restroom3" Source="{local:ImageResource BHSMobileApp.images.bathroom-sign.png}"
                        RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView, ElementName=floor,Property=Width,Factor=0.604,Constant=0}"
                        RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView, ElementName=floor,Property=Height,Factor=0.350,Constant=0}"
                        RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToView, ElementName=floor,Property=Width,Factor=0.05,Constant=0}"
                        RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToView, ElementName=floor,Property=Height,Factor=0.05,Constant=0}"/>
-                <Image x:Name="restroom4" Source="http://imghst.co/70/CFXCKYtpXm.png"
+                <Image x:Name="restroom4" Source="{local:ImageResource BHSMobileApp.images.bathroom-sign.png}"
                        RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView, ElementName=floor,Property=Width,Factor=0.651,Constant=0}"
                        RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView, ElementName=floor,Property=Height,Factor=0.177,Constant=0}"
                        RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToView, ElementName=floor,Property=Width,Factor=0.05,Constant=0}"

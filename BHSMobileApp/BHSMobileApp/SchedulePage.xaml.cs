@@ -13,6 +13,9 @@ namespace BHSMobileApp
 
         void Save(object sender, EventArgs e)
         {
+            // -----------------------------
+            // Start entering your code here
+            // -----------------------------
             DataStorage.SaveProperty("class1", Class1.Text);
             DataStorage.SaveProperty("class2", Class2.Text);
             DataStorage.SaveProperty("class3", Class3.Text);
@@ -29,12 +32,18 @@ namespace BHSMobileApp
             DataStorage.SaveProperty("room6", Room6.Text);
             DataStorage.SaveProperty("room7", Room7.Text);
             DataStorage.SaveProperty("room8", Room8.Text);
+            // -----------------------------
+            // Stop entering your code here
+            // -----------------------------
 
             Application.Current.SavePropertiesAsync();
         }
 
         void Reset(object sender, EventArgs e)
         {
+            // -----------------------------
+            // Start entering your code here
+            // -----------------------------
             Class1.Text = DataStorage.LoadTextProperty("class1");
             Class2.Text = DataStorage.LoadTextProperty("class2");
             Class3.Text = DataStorage.LoadTextProperty("class3");
@@ -51,6 +60,9 @@ namespace BHSMobileApp
             Room6.Text = DataStorage.LoadTextProperty("room6");
             Room7.Text = DataStorage.LoadTextProperty("room7");
             Room8.Text = DataStorage.LoadTextProperty("room8");
+            // -----------------------------
+            // Stop entering your code here
+            // -----------------------------
         }
 
     }

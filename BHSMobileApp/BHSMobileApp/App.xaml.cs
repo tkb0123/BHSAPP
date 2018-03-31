@@ -15,9 +15,9 @@ namespace BHSMobileApp
             // -----------------------------
             // Start entering your code here
             // -----------------------------
-            var schedulePage = new SchedulePage { Title = "Schedule", /*Icon = "xaml.png"*/ };
-            var floorPlanPage = new FloorPlanPage { Title = "BHS Map", /*Icon = "xaml.png"*/ };
-            var settingsPage = new SettingsPage { Title = "Settings", /*Icon = "xaml.png"*/ };
+            var schedulePage = new SchedulePage { Title = "Schedule" };
+            var floorPlanPage = new FloorPlanPage { Title = "BHS Map" };
+            var settingsPage = new SettingsPage { Title = "Settings" };
 
             var tabbedLayout = new TabbedPage();
             tabbedLayout.Children.Add(schedulePage);
