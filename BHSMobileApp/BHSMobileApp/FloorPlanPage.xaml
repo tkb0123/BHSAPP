@@ -40,22 +40,64 @@
                 <Image x:Name="floor" Aspect="Fill" Source="http://imghst.co/91/30MNZJfzw!.png"
                        RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width,Factor=1,Constant=0}"/>
 
-                <AbsoluteLayout x:Name="pin" 
-                                RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView, ElementName=floor,Property=Width,Factor=0.1,Constant=-16}"
-                                RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView, ElementName=floor,Property=Height,Factor=0.1,Constant=-37}">
-                    <Image x:Name="pinImage" Source="http://imghst.co/87/V7EDIqE=sK.png"
-                           AbsoluteLayout.LayoutBounds="0,0,43.0,40.0"/>
-                    <Label x:Name="pinLabel" Text="Buzz!" FontAttributes="Bold" HorizontalTextAlignment="Center" AbsoluteLayout.LayoutBounds="-22,35,86.0,20.0"/>
-                </AbsoluteLayout>
-
                 <Image x:Name="stairs1" Source="http://imghst.co/74/LXlxPFYO0B.png"
                        RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView, ElementName=floor,Property=Width,Factor=0.100,Constant=0}"
                        RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView, ElementName=floor,Property=Height,Factor=0.760,Constant=0}"
                        RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToView, ElementName=floor,Property=Width,Factor=0.04,Constant=0}"
                        RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToView, ElementName=floor,Property=Height,Factor=0.04,Constant=0}"/>
-                <Image x:Name="stairs2" Source="http://imghst.co/74/LXlxPFYO0B.png"
+                <Image x:Name="stairs1a" Source="http://imghst.co/74/LXlxPFYO0B.png"
                        RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView, ElementName=floor,Property=Width,Factor=0.100,Constant=0}"
                        RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView, ElementName=floor,Property=Height,Factor=0.270,Constant=0}"
+                       RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToView, ElementName=floor,Property=Width,Factor=0.04,Constant=0}"
+                       RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToView, ElementName=floor,Property=Height,Factor=0.04,Constant=0}"/>
+                <Image x:Name="stairs2" Source="http://imghst.co/74/LXlxPFYO0B.png"
+                       RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView, ElementName=floor,Property=Width,Factor=0.351,Constant=0}"
+                       RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView, ElementName=floor,Property=Height,Factor=0.296,Constant=0}"
+                       RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToView, ElementName=floor,Property=Width,Factor=0.04,Constant=0}"
+                       RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToView, ElementName=floor,Property=Height,Factor=0.04,Constant=0}"/>
+                <Image x:Name="stairs2a" Source="http://imghst.co/74/LXlxPFYO0B.png"
+                       RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView, ElementName=floor,Property=Width,Factor=0.351,Constant=0}"
+                       RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView, ElementName=floor,Property=Height,Factor=0.786,Constant=0}"
+                       RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToView, ElementName=floor,Property=Width,Factor=0.04,Constant=0}"
+                       RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToView, ElementName=floor,Property=Height,Factor=0.04,Constant=0}"/>
+                <Image x:Name="stairs3" Source="http://imghst.co/74/LXlxPFYO0B.png"
+                       RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView, ElementName=floor,Property=Width,Factor=0.719,Constant=0}"
+                       RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView, ElementName=floor,Property=Height,Factor=0.200,Constant=0}"
+                       RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToView, ElementName=floor,Property=Width,Factor=0.04,Constant=0}"
+                       RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToView, ElementName=floor,Property=Height,Factor=0.04,Constant=0}"/>
+                <Image x:Name="stairs3a" Source="http://imghst.co/74/LXlxPFYO0B.png"
+                       RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView, ElementName=floor,Property=Width,Factor=0.719,Constant=0}"
+                       RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView, ElementName=floor,Property=Height,Factor=0.690,Constant=0}"
+                       RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToView, ElementName=floor,Property=Width,Factor=0.04,Constant=0}"
+                       RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToView, ElementName=floor,Property=Height,Factor=0.04,Constant=0}"/>
+                <Image x:Name="stairs4" Source="http://imghst.co/74/LXlxPFYO0B.png"
+                       RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView, ElementName=floor,Property=Width,Factor=0.436,Constant=0}"
+                       RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView, ElementName=floor,Property=Height,Factor=0.126,Constant=0}"
+                       RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToView, ElementName=floor,Property=Width,Factor=0.04,Constant=0}"
+                       RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToView, ElementName=floor,Property=Height,Factor=0.04,Constant=0}"/>
+                <Image x:Name="stairs4a" Source="http://imghst.co/74/LXlxPFYO0B.png"
+                       RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView, ElementName=floor,Property=Width,Factor=0.436,Constant=0}"
+                       RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView, ElementName=floor,Property=Height,Factor=0.616,Constant=0}"
+                       RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToView, ElementName=floor,Property=Width,Factor=0.04,Constant=0}"
+                       RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToView, ElementName=floor,Property=Height,Factor=0.04,Constant=0}"/>
+                <Image x:Name="stairs5" Source="http://imghst.co/74/LXlxPFYO0B.png"
+                       RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView, ElementName=floor,Property=Width,Factor=0.861,Constant=0}"
+                       RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView, ElementName=floor,Property=Height,Factor=0.234,Constant=0}"
+                       RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToView, ElementName=floor,Property=Width,Factor=0.04,Constant=0}"
+                       RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToView, ElementName=floor,Property=Height,Factor=0.04,Constant=0}"/>
+                <Image x:Name="stairs5a" Source="http://imghst.co/74/LXlxPFYO0B.png"
+                       RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView, ElementName=floor,Property=Width,Factor=0.861,Constant=0}"
+                       RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView, ElementName=floor,Property=Height,Factor=0.724,Constant=0}"
+                       RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToView, ElementName=floor,Property=Width,Factor=0.04,Constant=0}"
+                       RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToView, ElementName=floor,Property=Height,Factor=0.04,Constant=0}"/>
+                <Image x:Name="stairs6" Source="http://imghst.co/74/LXlxPFYO0B.png"
+                       RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView, ElementName=floor,Property=Width,Factor=0.551,Constant=0}"
+                       RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView, ElementName=floor,Property=Height,Factor=0.349,Constant=0}"
+                       RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToView, ElementName=floor,Property=Width,Factor=0.04,Constant=0}"
+                       RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToView, ElementName=floor,Property=Height,Factor=0.04,Constant=0}"/>
+                <Image x:Name="stairs6a" Source="http://imghst.co/74/LXlxPFYO0B.png"
+                       RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView, ElementName=floor,Property=Width,Factor=0.551,Constant=0}"
+                       RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView, ElementName=floor,Property=Height,Factor=0.839,Constant=0}"
                        RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToView, ElementName=floor,Property=Width,Factor=0.04,Constant=0}"
                        RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToView, ElementName=floor,Property=Height,Factor=0.04,Constant=0}"/>
 
@@ -64,32 +106,40 @@
                        RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView, ElementName=floor,Property=Height,Factor=0.167,Constant=0}"
                        RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToView, ElementName=floor,Property=Width,Factor=0.05,Constant=0}"
                        RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToView, ElementName=floor,Property=Height,Factor=0.05,Constant=0}"/>
-                <Image x:Name="elevator2" Source="http://imghst.co/100/FaT!uoU6yB.png"
+                <Image x:Name="elevator1a" Source="http://imghst.co/100/FaT!uoU6yB.png"
                        RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView, ElementName=floor,Property=Width,Factor=0.541,Constant=0}"
                        RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView, ElementName=floor,Property=Height,Factor=0.657,Constant=0}"
                        RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToView, ElementName=floor,Property=Width,Factor=0.05,Constant=0}"
                        RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToView, ElementName=floor,Property=Height,Factor=0.05,Constant=0}"/>
 
-                <Image x:Name="restroom1" Source="{local:ImageResource BHSMobileApp.images.bathroom-female-sign.png}"
+                <Image x:Name="restroom1" Source="http://imghst.co/75/I=l4w9qIxY.png"
                        RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView, ElementName=floor,Property=Width,Factor=0.400,Constant=0}"
                        RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView, ElementName=floor,Property=Height,Factor=0.264,Constant=0}"
                        RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToView, ElementName=floor,Property=Width,Factor=0.05,Constant=0}"
                        RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToView, ElementName=floor,Property=Height,Factor=0.05,Constant=0}"/>
-                <Image x:Name="restroom2" Source="{local:ImageResource BHSMobileApp.images.bathroom-male-sign.png}"
+                <Image x:Name="restroom2" Source="http://imghst.co/94/_pK8hxQPm~.png"
                        RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView, ElementName=floor,Property=Width,Factor=0.426,Constant=0}"
                        RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView, ElementName=floor,Property=Height,Factor=0.331,Constant=0}"
                        RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToView, ElementName=floor,Property=Width,Factor=0.05,Constant=0}"
                        RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToView, ElementName=floor,Property=Height,Factor=0.05,Constant=0}"/>
-                <Image x:Name="restroom3" Source="{local:ImageResource BHSMobileApp.images.bathroom-sign.png}"
+                <Image x:Name="restroom3" Source="http://imghst.co/70/CFXCKYtpXm.png"
                        RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView, ElementName=floor,Property=Width,Factor=0.604,Constant=0}"
                        RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView, ElementName=floor,Property=Height,Factor=0.350,Constant=0}"
                        RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToView, ElementName=floor,Property=Width,Factor=0.05,Constant=0}"
                        RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToView, ElementName=floor,Property=Height,Factor=0.05,Constant=0}"/>
-                <Image x:Name="restroom4" Source="{local:ImageResource BHSMobileApp.images.bathroom-sign.png}"
+                <Image x:Name="restroom4" Source="http://imghst.co/70/CFXCKYtpXm.png"
                        RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView, ElementName=floor,Property=Width,Factor=0.651,Constant=0}"
                        RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView, ElementName=floor,Property=Height,Factor=0.177,Constant=0}"
                        RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToView, ElementName=floor,Property=Width,Factor=0.05,Constant=0}"
                        RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToView, ElementName=floor,Property=Height,Factor=0.05,Constant=0}"/>
+
+                <AbsoluteLayout x:Name="pin"
+                                RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView, ElementName=floor,Property=Width,Factor=0.1,Constant=-16}"
+                                RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView, ElementName=floor,Property=Height,Factor=0.1,Constant=-37}">
+                    <Image x:Name="pinImage" Source="http://imghst.co/87/V7EDIqE=sK.png"
+                           AbsoluteLayout.LayoutBounds="0,0,43.0,40.0"/>
+                    <Label x:Name="pinLabel" Text="Buzz!" FontAttributes="Bold" TextColor="Black" HorizontalTextAlignment="Center" AbsoluteLayout.LayoutBounds="-22,35,86.0,20.0"/>
+                </AbsoluteLayout>
 
             </RelativeLayout>
 
@@ -97,8 +147,7 @@
                 <Label Text="Classes" VerticalTextAlignment="Center" FontSize="10" />
                 <Picker x:Name="classDropdown" HorizontalOptions="FillAndExpand">
                     <Picker.Items>
-                        <x:String>Algebra 123</x:String>
-                        <x:String>Item 2</x:String>
+                        <x:String></x:String>
                     </Picker.Items>
                 </Picker>
             </StackLayout>

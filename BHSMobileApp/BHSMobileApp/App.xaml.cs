@@ -27,6 +27,7 @@ namespace BHSMobileApp
             tabbedLayout.SelectedItem = floorPlanPage; // Start on this page
 
             page = tabbedLayout;
+			
             // -----------------------------
             // Stop entering your code here
             // -----------------------------
